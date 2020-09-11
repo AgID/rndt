@@ -34,3 +34,5 @@ Nella figura seguente viene mostrata una delle possibili architetture del sistem
 
 
 ![alt-text](images/architettura-RNDT.png "architettura RNDT")
+
+
