@@ -21,8 +21,8 @@ Il sistema consiste nei seguenti componenti:
 - **Geoviewer**: applicazione Javascript di un visualizzatore che consente di ricercare e visualizzare risorse geografiche disponibili sul Web;
 - **Reverse proxy**: questo non è un vero e proprio componente ma è una modalità per instradare le chiamate alle webapp e impedire quindi l&#39;accesso diretto alla macchina di backend. Tutte le chiamate all&#39;interfaccia RST e CSW delle webapp devono essere instradate dalla porta 80 alla porta 8080 su tomcat;
 - **geoportalRNDTPA** / **geoportalRNDTAdm**: webapp per la gestione dei metadati, una per la gestione e pubblicazione dei metadati e l'altra che include anche le funzionalità di amministrazione;
-- **Database Joomla** / **Database Metadati**: sono i due schemi MySQL che gestiscono i contenuti del CMS e i metadati;
-- **LDAP**: è il server di autenticazione che viene utilizzato da Joomla e dalle webapp.
+- **Database Joomla** / **Database Metadati**: i due schemi MySQL che gestiscono i contenuti del CMS e i metadati;
+- **LDAP**: server di autenticazione che viene utilizzato da Joomla e dalle webapp.
 
 Per la gestione del sistema sono inoltre necessarie alcune applicazioni di gestione dei componenti base, quali:
 
@@ -35,4 +35,8 @@ Nella figura seguente viene mostrata una delle possibili architetture del sistem
 
 ![alt-text](images/architettura-RNDT.png "architettura RNDT")
 
+Le componenti di cui sopra sono resi disponibili in respository separati in quanto sono utilizzabili separatamente. In particolare, di seguito il link ai singoli repository:
 
+- [**geoportale**](https://github.com/AgID/rndt-joomla-template);
+- [**geoviewer**](https://github.com/AgID/rndt-geoviewer);
+- [**catalogo metadati**](https://github.com/AgID/rndt-catalogue).
