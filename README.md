@@ -1,6 +1,6 @@
 # RNDT 2.0
 
-La suite RNDT 2.0 è un insieme di applicazione per l'implementazione di un Geoportale che include un potente motore di ricerca, visualizzazione e gestione di metadati secondo le regole tecniche nazionali ed europee (INSPIRE), oltre a un visualizzatore di dati e servizi.
+La suite RNDT 2.0 è un insieme di applicazioni per l'implementazione di un Geoportale che include un potente motore di ricerca, visualizzazione e gestione di metadati secondo le regole tecniche nazionali ed europee (INSPIRE), oltre a un visualizzatore di dati e servizi.
 
 La suite è utilizzata dal [**portale RNDT**](https://geodati.gov.it).
 
