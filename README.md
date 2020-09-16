@@ -41,7 +41,7 @@ Le componenti di cui sopra sono rese disponibili nei seguenti respository:
 
 ## Licenza
 
-Le componenti della suite sono resi disponibili con **licenza EUPL v.1.2**, come indicato nei singoli repository.
+Le componenti della suite sono rese disponibili con **licenza EUPL v.1.2**, come indicato nei singoli repository.
 
 ## Credits
 
