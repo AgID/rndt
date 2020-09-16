@@ -36,5 +36,5 @@ Nella figura seguente viene mostrata una delle possibili architetture del sistem
 Le componenti di cui sopra sono rese disponibili nei seguenti respository:
 
 - [**geoportale**](https://github.com/AgID/rndt-joomla-template), che include anche gli applicativi per il reverse proxy;
-- [**geoviewer**](https://github.com/AgID/rndt-geoviewer), che include anche gli applicativi per il reverse proxy;;
+- [**geoviewer**](https://github.com/AgID/rndt-geoviewer), che include anche gli applicativi per il reverse proxy;
 - [**catalogo metadati**](https://github.com/AgID/rndt-catalogue), che comprende le due webapp geoportalRNDTPA e geoportalRNDTAdm, LDAP e il DB per i metadati.
