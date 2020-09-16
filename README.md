@@ -1,16 +1,14 @@
 # RNDT 2.0
 
-La soluzione RNDT 2.0 è un Geoportale che include un potente motore di ricerca, visualizzazione e gestione di metadati secondo le regole tecniche nazionali ed europee (INSPIRE).
+La suite RNDT 2.0 è un insieme di applicazione per l'implementazione di un Geoportale che include un potente motore di ricerca, visualizzazione e gestione di metadati secondo le regole tecniche nazionali ed europee (INSPIRE), oltre a un visualizzatore di dati e servizi.
 
-La soluzione è utilizzato dal [**portale RNDT**](https://geodati.gov.it).
+La suite è utilizzata dal [**portale RNDT**](https://geodati.gov.it).
 
-Il sistema si basa su un CMS (Joomla) per la gestione dei contenuti e delle pagine informative, un DB (MySQL) per la gestione dei contenuti sia gestionali che relativi ai metadati, un server di autenticazione (LDAP) e un metadata server (ESRI Geoportal Server) per la gestione dei metadati.
-
-Inoltre è presente anche un geoviewer basato sulle API ESRI.
+Essa si basa su un CMS (Joomla) per la gestione dei contenuti e delle pagine informative, un DB (MySQL) per la gestione dei contenuti sia gestionali che relativi ai metadati, un server di autenticazione (LDAP), un metadata server (ESRI Geoportal Server) per la gestione dei metadati e un geoviewer.
 
 Il sistema è installabile sia in ambiente Windows che in ambiente Linux, in quanto scritto in linguaggio Java/PHP e operante all&#39;interno di un application container (Tomcat).
 
-Il sistema è stato creato per la realizzazione del nuovo geoportale RNDT di AgID, ed ha quindi alcune caratteristiche che derivano principalmente dai requisiti di progetto:
+Il sistema è stato creato per la realizzazione del nuovo geoportale RNDT di AgID ed ha quindi alcune caratteristiche che derivano principalmente dai requisiti di progetto con particolare riferimento a:
 
 - Gestione di Enti e Utenti
 - Suddivisione tra funzionalità per utenti generici, applicazione "PA" e applicazione di "Amministrazione".
@@ -35,8 +33,8 @@ Nella figura seguente viene mostrata una delle possibili architetture del sistem
 
 ![alt-text](images/architettura-RNDT.png "architettura RNDT")
 
-Le componenti di cui sopra sono resi disponibili in respository separati in quanto sono utilizzabili separatamente. In particolare, di seguito il link ai singoli repository:
+Le componenti di cui sopra sono resi nei seguenti respository:
 
-- [**geoportale**](https://github.com/AgID/rndt-joomla-template);
-- [**geoviewer**](https://github.com/AgID/rndt-geoviewer);
-- [**catalogo metadati**](https://github.com/AgID/rndt-catalogue).
+- [**geoportale**](https://github.com/AgID/rndt-joomla-template), che include anche gli applicativi per il reverse proxy;
+- [**geoviewer**](https://github.com/AgID/rndt-geoviewer), che include anche gli applicativi per il reverse proxy;;
+- [**catalogo metadati**](https://github.com/AgID/rndt-catalogue), che comprende le due webapp geoportalRNDTPA e geoportalRNDTAdm, LDAP e il DB per i metadati.
