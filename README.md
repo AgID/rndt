@@ -13,7 +13,7 @@ Il sistema è stato creato per la realizzazione del nuovo geoportale RNDT di AgI
 - Gestione di Enti e Utenti
 - Suddivisione tra funzionalità per utenti generici, applicazione "PA" e applicazione di "Amministrazione".
 
-Il sistema consiste nei seguenti componenti:
+Il sistema consiste nelle seguenti componenti:
 
 - **Geoportale**: applicazione Joomla/PHP per la gestione dei contenuti del sito; 
 - **Geoviewer**: applicazione Javascript di un visualizzatore che consente di ricercare e visualizzare risorse geografiche disponibili sul Web;
@@ -33,7 +33,7 @@ Nella figura seguente viene mostrata una delle possibili architetture del sistem
 
 ![alt-text](images/architettura-RNDT.png "architettura RNDT")
 
-Le componenti di cui sopra sono resi nei seguenti respository:
+Le componenti di cui sopra sono rese disponibili nei seguenti respository:
 
 - [**geoportale**](https://github.com/AgID/rndt-joomla-template), che include anche gli applicativi per il reverse proxy;
 - [**geoviewer**](https://github.com/AgID/rndt-geoviewer), che include anche gli applicativi per il reverse proxy;;
