@@ -38,3 +38,11 @@ Le componenti di cui sopra sono rese disponibili nei seguenti respository:
 - [**geoportale**](https://github.com/AgID/rndt-joomla-template), che include anche gli applicativi per il reverse proxy;
 - [**geoviewer**](https://github.com/AgID/rndt-geoviewer), che include anche gli applicativi per il reverse proxy;
 - [**catalogo metadati**](https://github.com/AgID/rndt-catalogue), che comprende le due webapp geoportalRNDTPA e geoportalRNDTAdm, LDAP e il DB per i metadati.
+
+## Licenza
+
+Le componenti della suite sono resi disponibili con **licenza EUPL v.1.2**, come indicato nei singoli repository.
+
+## Credits
+
+La suite è stata sviluppata da ESRI Italia per [**AgID**](https://agid.gov.it/) nell'ambito della gara per le **Infrastrutture Nazionali Condivise SPC**.
