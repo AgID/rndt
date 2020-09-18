@@ -39,6 +39,10 @@ Le componenti di cui sopra sono rese disponibili nei seguenti respository:
 - [**geoviewer**](https://github.com/AgID/rndt-geoviewer), che include anche gli applicativi per il reverse proxy;
 - [**catalogo metadati**](https://github.com/AgID/rndt-catalogue), che comprende le due webapp geoportalRNDTPA e geoportalRNDTAdm, LDAP e il DB per i metadati.
 
+Altre applicazioni relative a RNDT disponibili per il riuso sono le seguenti:
+- [**RNDT metadata converter**](https://github.com/AgID/rndt-md-converter), tool per la trasformazione dei metadati da un profilo ISO 19115 ad un altro;
+- **RNDT GeoDCAT-AP API**, soluzione per trasformare i metadati dei dati territoriali documentati secondo il profilo italiano dallo standard ISO TS 19139 allo standard DCAT-AP/DCAT-AP_IT.
+
 ## Licenza
 
 Le componenti della suite sono rese disponibili con **licenza EUPL v.1.2**, come indicato nei singoli repository.
