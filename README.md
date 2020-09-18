@@ -1,5 +1,7 @@
 # RNDT 2.0
 
+[![License: EUPL 1.2](https://img.shields.io/badge/License-EUPL&nbsp;1.2-blue.svg)](https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/eupl_v1.2_it.pdf)
+
 La suite RNDT 2.0 è un insieme di applicazioni per l'implementazione di un Geoportale che include un potente motore di ricerca, visualizzazione e gestione di metadati secondo le regole tecniche nazionali ed europee (INSPIRE), oltre a un visualizzatore di dati e servizi.
 
 La suite è utilizzata dal [**portale RNDT**](https://geodati.gov.it).
