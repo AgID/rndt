@@ -219,4 +219,4 @@ Tabella di statistiche che tiene traccia del tipo di servizio (discovery, view, 
 | --- | --- |
 | ID | Identificativo univoco del record (sequence) |
 | DOCUUID | Identificativo del metadato |
-| SERVICE\_TYPE | Tipo di servizio9 |
+| SERVICE\_TYPE | Tipo di servizio |
