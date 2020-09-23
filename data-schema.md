@@ -73,7 +73,7 @@ Tabella principale dei metadati. Contiene i dati essenziali per ogni metadato e 
 | ACL | Indicates the restriction policy (if any) on the record. NON UTILIZZATO. |
 | HOST\_URL | If the resource is a registered network resource, this is its URL |
 | PROTOCOL\_TYPE | If the resource is a registered network resource, this is the protocol it uses (e.g., &quot;arcims&quot;, &quot;res&quot;, &quot;csw&quot;, &quot;oai&quot;, &quot;waf&quot;, &quot;thredds&quot;) |
-| PROTOCOL | Xml encoding of the resource&#39;s parameters, as defined when the resource is registered. An example with WAF: <?xml version="1.0" encoding="UTF-8"?><protocol type="WAF"><username/><password/></protocol> |
+| PROTOCOL | Xml encoding of the resource&#39;s parameters, as defined when the resource is registered. An example with WAF: &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;protocol type=&quot;WAF&quot;&gt;&lt;username/&gt;&lt;password/&gt;&lt;/protocol&gt; |
 | FREQUENCY | How often the resource should be synchronized (e.g., &quot;Monthly&quot;, &quot;BiWeekly&quot;, &quot;Weekly&quot;, &quot;Daily&quot;, &quot;Hourly&quot;, &quot;Once&quot;, &quot;Skip&quot;) |
 | SEND\_NOTIFICATION | True/false: send user an email when resource is synchronized |
 | FINDABLE | String associated with each metadata record, indicating whether it can be found when searching for metadata. The value can either be null for metadata that is not describing a searchable endpoint or true or false for metadata records that are describing a searchable endpoint. |
