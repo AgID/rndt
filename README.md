@@ -45,7 +45,7 @@ Le componenti di cui sopra sono rese disponibili nei seguenti respository:
 
 Altre applicazioni relative a RNDT disponibili per il riuso sono le seguenti:
 - [**RNDT metadata converter**](https://github.com/AgID/rndt-md-converter), tool per la trasformazione dei metadati da un profilo ISO 19115 / TS 19139 ad un altro;
-- **RNDT GeoDCAT-AP API**, soluzione per trasformare i metadati dei dati territoriali documentati secondo il profilo italiano dallo standard ISO TS 19139 allo standard DCAT-AP/DCAT-AP_IT.
+- [**RNDT GeoDCAT-AP API**](https://github.com/AgID/rndt-geodcat-ap-api), soluzione per trasformare i metadati dei dati territoriali documentati secondo il profilo italiano dallo standard ISO TS 19139 allo standard DCAT-AP/DCAT-AP_IT.
 
 ## Licenza
 
