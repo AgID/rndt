@@ -178,7 +178,6 @@ Tabella di statistiche che tiene traccia del tipo di metadato (dataset, serie, s
 | **Column Name** | **Meaning** |
 | --- | --- |
 | ID | Identificativo univoco del record (sequence) |
- |
 | DOCUUID | Identificativo del metadato |
 | HIERARCHY | Tipo di metadato |
 
@@ -189,7 +188,6 @@ Tabella di statistiche che tiene traccia della categoria ISO. La tabella viene g
 | **Column Name** | **Meaning** |
 | --- | --- |
 | ID | Identificativo univoco del record (sequence) |
- |
 | DOCUUID | Identificativo del metadato |
 | TOPIC | Categoria ISO |
 
@@ -200,7 +198,6 @@ Tabella di statistiche che tiene traccia del tipo di servizio INSPIRE. La tabell
 | **Column Name** | **Meaning** |
 | --- | --- |
 | ID | Identificativo univoco del record (sequence) |
- |
 | DOCUUID | Identificativo del metadato |
 | INSPIRE\_SERVICE | Tipo di servizio INSPIRE |
 
@@ -211,7 +208,6 @@ Tabella di statistiche che tiene traccia del tema INSPIRE. La tabella viene gest
 | **Column Name** | **Meaning** |
 | --- | --- |
 | ID | Identificativo univoco del record (sequence) |
- |
 | DOCUUID | Identificativo del metadato |
 | INSPIRE\_THEME | Tema INSPIRE |
 
@@ -222,6 +218,5 @@ Tabella di statistiche che tiene traccia del tipo di servizio (discovery, view, 
 | **Column Name** | **Meaning** |
 | --- | --- |
 | ID | Identificativo univoco del record (sequence) |
- |
 | DOCUUID | Identificativo del metadato |
 | SERVICE\_TYPE | Tipo di servizio9 |
