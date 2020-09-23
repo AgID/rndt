@@ -6,7 +6,7 @@ La suite RNDT 2.0 è un insieme di applicazioni per l'implementazione di un Geop
 
 La suite è utilizzata dal [**portale RNDT**](https://geodati.gov.it).
 
-Essa si basa su un CMS (Joomla) per la gestione dei contenuti e delle pagine informative, un DB (MySQL) per la gestione dei contenuti sia gestionali che relativi ai metadati (v. lo [**schema dati**](data-schema.md), un server di autenticazione (LDAP), un metadata server (ESRI Geoportal Server) per la gestione dei metadati e un geoviewer.
+Essa si basa su un CMS (Joomla) per la gestione dei contenuti e delle pagine informative, un DB (MySQL) per la gestione dei contenuti sia gestionali che relativi ai metadati (v. lo [**schema dati**](data-schema.md)), un server di autenticazione (LDAP), un metadata server (ESRI Geoportal Server) per la gestione dei metadati e un geoviewer.
 
 Il sistema è installabile sia in ambiente Windows che in ambiente Linux, in quanto scritto in linguaggio Java/PHP e operante all&#39;interno di un application container (Tomcat).
 
