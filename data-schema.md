@@ -2,10 +2,10 @@
 
 L'immagine che segue rappresenta lo schema ER del database suddiviso nelle seguenti aree:
 
-- **Area con contorno verde** : sono le tabelle che contengono i metadati e la relazione con le raccolte effettuate. Queste tabelle fanno parte del prodotto base Esri Geoportal Server e vengono utilizzate nel sistema;
-- **Area grigia** : sono le tabelle che gestiscono le collezioni e le ricerche utenti salvate. Anch'esse fanno parte del prodotto base Esri Geoportal Server ma non vengono utilizzate nel sistema;
-- **Area con contorno marrone** : sono le tabelle per la gestione delle pubbliche amministrazioni, della loro tipologia e del legame con gli utenti. A parte la tabella GPT_USER, sono tabelle aggiuntive create appositamente per il progetto. La tabella GPT_USER è stata modificata rispetto a quella originaria con l&#39;aggiunta del legame con la PA, attributo FK_IDPA;
-- **Area con contorno blu** : sono le tabelle per le statistiche, create appositamente per il progetto.
+- **Area con contorno verde**: sono le tabelle che contengono i metadati e la relazione con le raccolte effettuate. Queste tabelle fanno parte del prodotto base Esri Geoportal Server e vengono utilizzate nel sistema;
+- **Area grigia**: sono le tabelle che gestiscono le collezioni e le ricerche utenti salvate. Anch'esse fanno parte del prodotto base Esri Geoportal Server ma non vengono utilizzate nel sistema;
+- **Area con contorno marrone**: sono le tabelle per la gestione delle pubbliche amministrazioni, della loro tipologia e del legame con gli utenti. A parte la tabella GPT_USER, sono tabelle aggiuntive create appositamente per il progetto. La tabella GPT_USER è stata modificata rispetto a quella originaria con l&#39;aggiunta del legame con la PA, attributo FK_IDPA;
+- **Area con contorno blu**: sono le tabelle per le statistiche, create appositamente per il progetto.
 
 ![alt-text](images/data-schema.png "schema dati")
 
