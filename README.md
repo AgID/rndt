@@ -49,7 +49,7 @@ Altre applicazioni relative a RNDT disponibili per il riuso sono le seguenti:
 
 ## Licenza
 
-Le componenti della suite sono rese disponibili con **licenza EUPL v.1.2**, come indicato nei singoli repository.
+Le componenti della suite sono rese disponibili con [**licenza EUPL v.1.2**](LICENSE), come indicato nei singoli repository.
 
 ## Credits
 
